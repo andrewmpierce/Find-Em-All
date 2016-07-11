@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  egg: MyString
+  location: MyString
+  incense: false
+  lure: false
+  user_lvl: 
+
+two:
+  type: 
+  egg: MyString
+  location: MyString
+  incense: false
+  lure: false
+  user_lvl: 
