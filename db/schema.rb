@@ -14,13 +14,13 @@
 ActiveRecord::Schema.define(version: 20160711215549) do
 
   create_table "pokemons", force: :cascade do |t|
-    t.string   "type"
+    t.string   "species"
     t.string   "egg"
     t.string   "location"
     t.boolean  "incense"
     t.boolean  "lure"
     t.integer  "user_lvl"
-    t.integer  "user_id",    null: false
+    t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
